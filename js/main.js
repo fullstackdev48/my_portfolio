@@ -1,7 +1,3 @@
-// Example for touch event listener
-element.addEventListener('touchstart', onTouchStart, { passive: true });
-element.addEventListener('wheel', onWheel, { passive: true });
-
 (function ($) {
     "use strict";
 
