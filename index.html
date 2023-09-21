@@ -494,12 +494,12 @@
 
     <script>
         // Example for touch event listener
-        element.addEventListener('touchstart', onTouchStart, { passive: true });
-        element.addEventListener('touchstart', touchStartHandler, { passive: true });
-        element.addEventListener('wheel', onWheel, { passive: true });
-        element.addEventListener('wheel', wheelHandler, { passive: true });
+        document.addEventListener('touchstart', onTouchStart, { passive: true });
+        document.addEventListener('touchstart', touchStartHandler, { passive: true });
+        document.addEventListener('wheel', onWheel, { passive: true });
+        document.addEventListener('wheel', wheelHandler, { passive: true });
     </script>
-    
+
     <!-- JavaScript Libraries -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
