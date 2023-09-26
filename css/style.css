@@ -301,6 +301,7 @@
 
 
 /*** Project Portfolio ***/
+#certificates-flters li,
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
@@ -310,6 +311,8 @@
     border-bottom: 2px solid transparent;
 }
 
+#certificates-flters li:hover,
+#certificates-flters li.active,
 #portfolio-flters li:hover,
 #portfolio-flters li.active {
     color: var(--primary);
