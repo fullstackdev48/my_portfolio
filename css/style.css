@@ -344,6 +344,10 @@
     padding-bottom: 30px !important;
 }
 
+.certificates-item:hover .portfolio-btn {
+    opacity: 1;
+    padding-bottom: 30px !important;
+}
 
 /*** Team ***/
 #experience {
