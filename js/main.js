@@ -99,40 +99,40 @@
     }, {offset: '80%'});
 
 
-    // Portfolio isotope and filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
+    // // Portfolio isotope and filter
+    // var portfolioIsotope = $('.portfolio-container').isotope({
+    //     itemSelector: '.portfolio-item',
+    //     layoutMode: 'fitRows'
+    // });
 
-    var certificatesIsotope = $('.certificates-container').isotope({
-        itemSelector: '.certificates-item',
-        layoutMode: 'fitRows'
-    });
+    // var certificatesIsotope = $('.certificates-container').isotope({
+    //     itemSelector: '.certificates-item',
+    //     layoutMode: 'fitRows'
+    // });
 
-    $('#portfolio-flters li').on('click', function () {
-        $("#portfolio-flters li").removeClass('active');
-        $(this).addClass('active');
+    // $('#portfolio-flters li').on('click', function () {
+    //     $("#portfolio-flters li").removeClass('active');
+    //     $(this).addClass('active');
 
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
-    });
+    //     portfolioIsotope.isotope({filter: $(this).data('filter')});
+    // });
 
-    $('#certificates-flters li').on('click', function () {
-        $("#certificates-flters li").removeClass('active');
-        $(this).addClass('active');
+    // $('#certificates-flters li').on('click', function () {
+    //     $("#certificates-flters li").removeClass('active');
+    //     $(this).addClass('active');
 
-        certificatesIsotope.isotope({filter: $(this).data('filter')});
-    });
+    //     certificatesIsotope.isotope({filter: $(this).data('filter')});
+    // });
 
 
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        items: 1,
-        dots: true,
-        loop: true,
-    });
+    // // Testimonials carousel
+    // $(".testimonial-carousel").owlCarousel({
+    //     autoplay: true,
+    //     smartSpeed: 1000,
+    //     items: 1,
+    //     dots: true,
+    //     loop: true,
+    // });
 
     
 })(jQuery);
