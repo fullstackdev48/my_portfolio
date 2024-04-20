@@ -261,7 +261,7 @@
 
 /*** Skills ***/
 #skill {
-    background-color: #FAFAFB;
+    background-color: whitesmoke;
 }
 
 #skill .progress {
@@ -351,7 +351,11 @@
 
 /*** Team ***/
 #experience {
-    background-color: #FAFAFB;
+    background-color: whitesmoke;
+}
+
+#certificates {
+    background-color: whitesmoke;
 }
 
 .team-item img {
